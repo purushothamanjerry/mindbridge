@@ -1,0 +1,50 @@
+day 3
+
+
+Static
+Static Variables and Methods:
+Write a program with a class Counter that has a static variable to count the number of objects created. Create three objects and print the count using a static method.
+Create a class Utility with a static method convertToUpper(String str) that takes a string as input and returns it in uppercase. Test this method in the main function.
+
+Arrays
+Single-Dimensional Array:
+Write a program to find the largest and smallest numbers in an array.
+Create a program to calculate the sum of all elements in an array.
+Multi-Dimensional Array:
+Write a program to add two 2D matrices.
+Create a program to transpose a given matrix.
+
+Inheritance Part 1
+Basic Inheritance:
+Create a class Person with attributes name and age. Derive a class Student that adds rollNumber and marks. Write methods to display both Person and Student details.
+Create a class Vehicle with a method start(). Derive a class Car that overrides the start() method. Write a program to demonstrate method overriding.
+
+Inheritance Part 2
+Multi-Level Inheritance:
+Create a class Shape with a method area(). Derive a class Rectangle with attributes length and breadth, and override the area() method. Further, derive a class Square from Rectangle and demonstrate multilevel inheritance.
+Hierarchical Inheritance:
+Create a base class Animal with a method sound(). Derive two classes Dog and Cat from Animal. Override the sound() method to print “Bark” for Dog and “Meow” for Cat.
+
+Polymorphism
+Compile-Time Polymorphism (Method Overloading):
+Create a class Calculator with overloaded methods add(int, int), add(double, double), and add(int, int, int). Test all methods.
+Run-Time Polymorphism (Method Overriding):
+Write a program with a base class Employee that has a method calculateSalary(). Derive two classes Manager and Developer, and override the calculateSalary() method in both to display different salaries.
+
+Abstract Classes
+Abstract Class Example:
+Create an abstract class Shape with an abstract method calculateArea(). Derive classes Circle and Rectangle and implement the calculateArea() method in both.
+Partial Implementation:
+Create an abstract class Appliance with methods turnOn() (abstract) and turnOff() (non-abstract). Derive a class Fan and implement turnOn().
+
+Interface Part 1
+Basic Interface Implementation:
+Create an interface Animal with methods eat() and sleep(). Implement this interface in classes Dog and Cat.
+Interface with Fields:
+Define an interface Constants with static fields like PI = 3.14. Create a class Circle that uses this constant to calculate the area of a circle.
+
+Interface Part 2
+Multiple Interfaces:
+Create two interfaces Printer with a method print() and Scanner with a method scan(). Create a class AllInOne that implements both interfaces.
+Interface Inheritance:
+Define an interface Vehicle with a method start(). Derive two interfaces FourWheeler and TwoWheeler from it, each adding its specific methods. Implement these in relevant classes.
