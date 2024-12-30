@@ -17,8 +17,8 @@ class Student
 }
 public class ParameterizedConstructor {
     public static void main(String[] args) {
-     Student std1 = new Student("Kavin",20);
-     Student std2 = new Student("Teddy",20);
+     Student std1 = new Student("Purushothaman",21);
+     Student std2 = new Student("Jerry",20);
      std1.DisplayStudentDetails();
      std2.DisplayStudentDetails();
     }
