@@ -5,8 +5,8 @@ class Book
     String author;
     Book()
     {
-        title="the psychology of money";
-        author="Morgan Housel";
+        title="Harry Potter";
+        author="J. K. Rowling";
     }
     void DisplayBookDetails()
     {
