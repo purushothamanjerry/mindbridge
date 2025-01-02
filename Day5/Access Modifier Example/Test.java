@@ -1,6 +1,6 @@
 import day4.Person;
 
-public class Test extends Person {
+public class TestAccess extends Person {
 	
 	public Test(String name, int age, String address, int salery) {
 		super(name, age, address, salery);
