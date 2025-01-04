@@ -1,25 +1,25 @@
 package day6;
 
-	
-	class MyClass {
-	    private String message;
+class MyClass {
+    private String name;
+    private int regno;
 
-	    public MyClass(String message) {
-	        this.message = message;
-	    }
+    public MyClass(String name, int regno) {
+        this.name = name;
+        this.regno = regno;
+    }
 
-	    @Override
-	    public String toString() {
-	        return "MyClass [message=" + message + "]";
-	    }
-	}
+    @Override
+    public String toString() {
+        return "[Name=" + name + ", Regno=" + regno + "]";
+    }
+}
 
-	public class java_lang {
-	    public static void main(String[] args) {
-	        MyClass myObject = new MyClass("Hello, Object Class!");
-	        System.out.println("Class of the object: " + myObject.getClass());
-	        System.out.println("String representation of the object: " + myObject.toString());
-	    }
-	}
-
-
+public class java_lang {
+    public static void main(String[] args) {
+        MyClass myObject = new MyClass("Purushothaman", 7316211);
+        
+        System.out.println("Class of the object: " + myObject.getClass());
+        System.out.println(myObject.toString());
+    }
+}
