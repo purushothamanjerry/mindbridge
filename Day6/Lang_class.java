@@ -6,13 +6,13 @@ public class Lang_class {
 	    	double number = 16;
 	        double sqrt = Math.sqrt(number);
 	        double power = Math.pow(2, 5);
-	        int max = Math.max(10, 20);
+	        int max = Math.max(1000, 2000);
 
-	        System.out.println("Square root of " + number + " = " + sqrt);
-	        System.out.println("2 raised to the power of 5 = " + power);
-	        System.out.println("Maximum of 10 and 20 = " + max);
+	        System.out.println("Square root of: " +" " + sqrt);
+	        System.out.println( power);
+	        System.out.println("Maximum :"+" " + max);
 
-	        String originalString = "Java Programming";
+	        String originalString = "Purushothamanjerry";
 	        int length = originalString.length();
 	        String upperCaseString = originalString.toUpperCase();
 	        String substring = originalString.substring(5, 16);
