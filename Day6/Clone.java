@@ -2,21 +2,14 @@ package day6;
 
 
 class Student implements Cloneable {
-    private String name;
-    private int age;
+    String name;
+    int age;
 
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
@@ -32,10 +25,10 @@ class Student implements Cloneable {
 public class Clone {
     public static void main(String[] args) {
         try {
-            Student originalStudent = new Student("John Doe", 20);
-            System.out.println("Original Student: " + originalStudent);
+            Student s = new Student("Purushothaman", 20);
+            System.out.println("Original Student: " + s);
 
-            Student clonedStudent = (Student) originalStudent.clone();
+            Student clonedStudent = (Student) s.clone();
             System.out.println("Cloned Student: " + clonedStudent);
         } catch (CloneNotSupportedException e) {
             System.out.println("CloneNotSupportedException occurred: " + e.getMessage());
