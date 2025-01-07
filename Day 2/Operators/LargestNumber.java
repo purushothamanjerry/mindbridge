@@ -2,7 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class largestnumber {
+public class LargestNumber {
 	
 	
 	public static void main(String[] args) {
