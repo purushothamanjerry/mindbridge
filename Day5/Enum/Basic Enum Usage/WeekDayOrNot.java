@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Scanner;
 
-public class  weekdayornot{
+public class  WeekDayOrNot{
 	
 	
 	public static void main(String[] args) {
