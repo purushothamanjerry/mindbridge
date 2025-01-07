@@ -1,6 +1,6 @@
 package day3p;
 
-public class transpose {
+public class Transpose {
 
 	public static void main(String[] args) {
 		
