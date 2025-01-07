@@ -1,6 +1,6 @@
 package day3p;
 
-public class add2d {
+public class Add {
 	
 	
 	public static void main(String[] args) {
