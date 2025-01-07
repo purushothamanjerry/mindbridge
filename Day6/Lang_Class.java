@@ -1,6 +1,6 @@
 package day6;
 
-public class Lang_class {
+public class Lang_Class {
 	
 	    public static void main(String[] args) {
 	    	double number = 16;
