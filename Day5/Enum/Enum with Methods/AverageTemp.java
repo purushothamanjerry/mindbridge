@@ -1,6 +1,6 @@
 package day4;
 
-public class averagetemp {
+public class AverageTemp {
 
 	public static void main(String[] args) {
 		
