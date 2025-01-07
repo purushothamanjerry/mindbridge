@@ -1,6 +1,6 @@
 package day2;
 
-public class skip5multiples{
+public class Skip5Multiples{
 	
 	public static void main(String[] args) {
 		
