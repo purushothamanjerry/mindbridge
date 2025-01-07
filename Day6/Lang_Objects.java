@@ -15,7 +15,7 @@ class MyClass {
     }
 }
 
-public class java_lang {
+public class Java_Lang {
     public static void main(String[] args) {
         MyClass myObject = new MyClass("Purushothaman", 7316211);
         
