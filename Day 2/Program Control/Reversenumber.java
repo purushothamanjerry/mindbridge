@@ -2,7 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class reversenumber {
+public class Reversenumber {
 
 	public static void main(String[] args) {
 		
