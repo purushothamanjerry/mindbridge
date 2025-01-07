@@ -2,7 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class leapyear {
+public class LeapYear {
 
 	
 public static void main(String[] args) {
