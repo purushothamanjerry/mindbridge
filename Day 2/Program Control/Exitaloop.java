@@ -2,7 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class exitaloop {
+public class Exitaloop {
 
 	public static void main(String[] args) {
 		
