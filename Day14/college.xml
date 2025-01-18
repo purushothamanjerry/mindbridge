@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+    <students>
+        <student>
+            <id>1</id>
+            <name>John Doe</name>
+            <department>Computer Science</department>
+            <grade>A</grade>
+        </student>
+        <student>
+            <id>2</id>
+            <name>Jane Smith</name>
+            <department>Electronics</department>
+            <grade>B</grade>
+        </student>
+        <student>
+            <id>3</id>
+            <name>Emma Brown</name>
+            <department>Mechanical</department>
+            <grade>A</grade>
+        </student>
+    </students>
+</college>
